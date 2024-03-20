@@ -1,0 +1,333 @@
+.heading{
+    display: flex;
+}
+.icon{
+    width: 20px;
+    height: 17.6px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+input.search {
+    width: 350px;
+    border: 1px solid white;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("search.svg") no-repeat 13px;
+    margin-left: 330px ;
+}
+
+.webstore{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    font: #5c5f5e;
+    font-size: 17.6px;
+
+}
+.down-head{
+    display: flex;
+    justify-content: left;
+
+}
+
+.sub-title {
+    display: inline-block;
+    position: relative;
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    font: #5c5f5e;
+    font-size: 12px;
+    margin: 20px;
+    
+  }
+  
+  .sub-title:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    color: #0087ca;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .sub-title:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .slider {
+    overflow: hidden;
+    width: 800px;
+    height: 300px;
+    position: relative;
+    margin-left: 50px;
+   }
+    
+   .slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slider 12.5s infinite;
+   }
+    
+   .slider .slide:nth-child(1) {
+      background-image: url(marquee_2023_favorites.png);
+      animation-delay: 0s;
+   }
+   
+   .slider .slide:nth-child(2) {
+      background-image: url('marquee_black_artist_themes.png');
+      animation-delay: -2.5s;
+   }
+   
+   .slider .slide:nth-child(3) {
+      background-image: url('marquee_spring_cleaning.png');
+      animation-delay: -5s;
+   }
+   
+   .slider .slide:nth-child(4) {
+      background-image: url('marquee_black_artist_themes.png');
+      animation-delay: -7.5s;
+   }
+   
+   .slider .slide:nth-child(5) {
+      background-image: url('marquee_2023_favorites.png');
+      animation-delay: -10s;
+   }
+   
+   @keyframes slider {
+    0%, 16%, 100% {
+      transform: translateX(0);
+      animation-timing-function: ease;
+    }
+    20% {
+      transform: translateX(-100%);
+      animation-timing-function: step-end;
+    }
+    96% {
+      transform: translateX(100%);
+      animation-timing-function: ease;
+    }
+   }
+
+   .descript{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 400;
+    font: Black;
+    font-size: 25px;
+    padding-top: 70px;
+    
+   }
+
+   .disc{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    font: Black;
+    font-size: 15px;
+    
+
+
+   }
+
+   .see{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    font: Black;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    display: inline-block;
+   }
+   /* tab2 */
+   .descript1{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 25px;
+    padding-top: 70px;
+    
+   }
+
+   .disc1{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    font-size: 15px;
+    
+
+
+   }
+
+   .see1{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    display: inline-block;
+    
+   }
+
+   /* tab 3 */
+
+   .descript2{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 25px;
+    padding-top: 70px;
+    
+   }
+
+   .disc2{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    font-size: 15px;
+    
+
+
+   }
+
+   .see2{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    display: inline-block;
+   }
+
+
+   /* tab 4 */
+
+   .descript3{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 25px;
+    padding-top: 70px;
+    
+   }
+
+   .disc3{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    font-size: 15px;
+    
+
+
+   }
+
+   .see3{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    display: inline-block;
+   }
+
+   /* tab5 */
+
+   .descript4{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 400;
+    font: Black;
+    font-size: 25px;
+    padding-top: 70px;
+    
+   }
+
+   .disc4{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    font: Black;
+    font-size: 15px;
+    
+
+
+   }
+
+   .see4{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 200;
+    font: Black;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    display: inline-block;
+   }
+
+   /* slide  */
+   .text11{
+    padding-left: 450px;
+   }
+
+   .title11{
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 600;
+    font: black;
+    font-size: 17.6px;
+    margin-top: 40px;
+    margin-left: 50px;
+   }
+
+   .indii{
+    display: flex;
+    margin-left: 20px;
+    padding: 20px ;
+    gap: 40px;
+   }
+
+   .icon11{
+    background-color: #a8c7fa;
+    border: 1px white;
+    padding: 0px;
+    border-radius: 16px;
+    display: inline-block;
+
+   }
+   .icon22{
+    background-color: #e3e3e3 ;
+    border: 1px white;
+    padding: 0px;
+    border-radius: 16px;
+    display: inline-block;
+
+   }
+
+   .icon33{
+    background-color: #c2e7ff ;
+    border: 1px white;
+    padding: 0px;
+    border-radius: 16px;
+    display: inline-block;
+
+   }
+
+   .icon44{
+    background-color: #c4eed0;
+    border: 1px white;
+    padding: 0px;
+    border-radius: 16px;
+    display: inline-block;
+
+   }
